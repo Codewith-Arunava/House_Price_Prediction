@@ -1,6 +1,6 @@
 🏠 Kolkata House Price Prediction App
  
-This is a **machine learning web app* built with **Streamlit** that predicts house prices in Kolkata based on key features like square footage, location, number of bedrooms, and bathrooms.
+This is a **machine learning web app* built with **Streamlit** that predicts house prices in Kolkata based on key features like square footage, location, number of bedrooms, and bathrooms. 
 
 📁 Project Structure 
   
