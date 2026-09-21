@@ -9,7 +9,7 @@ st.header("House Price Prediction App")
 st.header('kolkata house prices predictor')
 data = pd.read_csv('C:\python\house price prediction ML project\cleaned_data.csv')                                                        #python -m streamlit run app.py
 loc=st.selectbox('Choose the Location',data['Location'].unique())
-Sqft= st.number_input('Enter the Area in sqft')
+Sqft= st.number_input('Enter the Area in sqft')  
 bedrooms= st.number_input('Enter the No. of Bedrooms')
 bathrooms= st.number_input('Enter the No. of Bathrooms')
 
