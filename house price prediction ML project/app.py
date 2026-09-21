@@ -4,7 +4,7 @@ import streamlit as st
  
 model = PK.load(open('C:\python\house price prediction ML project\House_Prediction_Model.pkl', 'rb'))                       
  
-st.header("House Price Prediction App")
+st.header("House Price Prediction App") 
 
 st.header('kolkata house prices predictor')
 data = pd.read_csv('C:\python\house price prediction ML project\cleaned_data.csv')                                                        #python -m streamlit run app.py
