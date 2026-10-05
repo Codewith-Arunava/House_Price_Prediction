@@ -1,6 +1,6 @@
 import pandas as pd
 import pickle as PK
-import streamlit as st
+import streamlit as st 
  
 model = PK.load(open('C:\python\house price prediction ML project\House_Prediction_Model.pkl', 'rb'))                        
  
