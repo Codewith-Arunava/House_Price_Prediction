@@ -17,7 +17,7 @@ bathrooms= st.number_input('Enter the No. of Bathrooms')
 
 input=pd.DataFrame([[Sqft,loc,bedrooms,bathrooms]], columns =['Area','Location','No. of Bedrooms','No. of Bathrooms'])
 
-if st.button('Predict Price'):
+if st.button('Predict Price'): 
     output = model.predict(input)
     out_str = 'price of the house is Rs. ' + str(int(output[0]/1.8))
     st.success(out_str)
