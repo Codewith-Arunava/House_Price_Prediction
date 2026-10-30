@@ -9,7 +9,7 @@ This is a **machine learning web app* built with **Streamlit** that predicts hou
 ├── House_price_prediction.ipynb      # Jupyter notebook for data preprocessing and model training
 ├── House_Prediction_Model.pkl        # Trained ML model using Linear Regression
 ├── cleaned_data.csv                  # Cleaned dataset used for model training and prediction
-├── Kolkata.csv                       # Raw or location-based housing data
+├── Kolkata.csv                       # Raw or location-based housing data 
 ├── README.md                         # Project overview and setup guide
 ```
  
